@@ -65,7 +65,7 @@ def _flatten(l):
 
 
 data = []
-with open('data/Selection and Extraction sheet (SLR Green AI).xlsx - Data extraction CLEAN.csv') as csv_file:
+with open('data/Selection and Extraction sheet (SLR Green AI).xlsx - Data extraction CLEAN.csv', mode='r', encoding='utf-8') as csv_file:
     reader = csv.DictReader(csv_file, delimiter=',')
     for row in reader:
         row["topic_set"] = set(TOPIC_DICTIONARY.get(topic, topic)
