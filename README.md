@@ -7,3 +7,5 @@ python -m venv venv #1st time only
 source venv/bin/activate
 python src/analysis.py
 ```
+
+> **_NOTE:_**  Windows users should download the font "Linux Libertine O" or change it.
