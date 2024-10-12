@@ -1,7 +1,8 @@
 import csv
 from collections import Counter
 import matplotlib.pyplot as plt
-plt.rcParams["font.family"] = ["Linux Libertine O", "serif"]
+# plt.rcParams["font.family"] = ["Linux Libertine O", "serif"] # Linuy
+plt.rcParams["font.family"] = ["Calibri", "serif"]  # Windows
 plt.rcParams["mathtext.fontset"] = "dejavuserif"
 plt.rcParams['lines.linewidth'] = 0.5
 plt.rcParams['axes.linewidth'] = 0.5

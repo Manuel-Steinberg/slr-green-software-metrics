@@ -8,4 +8,4 @@ source venv/bin/activate
 python src/analysis.py
 ```
 
-> **_NOTE:_**  Windows users should download the font "Linux Libertine O" or change it.
+> **_NOTE:_**  Windows users should download the font "Linux Libertine O" and hope for the best or change it to a system font.
